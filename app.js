@@ -12,19 +12,19 @@ const result = document.getElementById('result');
   // update DOM to reflect new value(s)
 
 button.addEventListener('click', () => {
-  if (isEven(inputBox.value)) {
-  result.textContent = "EVEN"
-  evenImage.classList.remove("hidden")
-  oddImage.classList.add("hidden")
-  }
-  if (isOdd(inputBox.value)){
-  result.textContent = "ODD"
-  oddImage.classList.remove("hidden")
-  evenImage.classList.add("hidden")
-}})
+    if (isEven(inputBox.value)) {
+        result.textContent = 'EVEN';
+        evenImage.classList.remove('hidden');
+        oddImage.classList.add('hidden');
+    }
+    if (isOdd(inputBox.value)){
+        result.textContent = 'ODD';
+        oddImage.classList.remove('hidden');
+        evenImage.classList.add('hidden');
+    }});
 
-const oddImage = document.getElementById("odd-image")
-const evenImage = document.getElementById("even-image")
+const oddImage = document.getElementById('odd-image');
+const evenImage = document.getElementById('even-image');
 
 // export function showPicture() {
 // if (result = isOdd(inputBox.value)) {
