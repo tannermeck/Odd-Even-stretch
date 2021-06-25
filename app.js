@@ -1,10 +1,10 @@
 // import functions
-import { isEven } from './is-even.js'
-import { isOdd } from './is-even.js'
+import { isEven } from './is-even.js';
+import { isOdd } from './is-even.js';
 // reference needed DOM elements
-const inputBox = document.getElementById("input-box");
-const button = document.getElementById("button");
-const result = document.getElementById("result");
+const inputBox = document.getElementById('input-box');
+const button = document.getElementById('button);
+const result = document.getElementById('result');
 
 // set event listeners 
   // get user input(s)
