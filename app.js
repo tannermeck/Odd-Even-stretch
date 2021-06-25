@@ -14,10 +14,21 @@ const result = document.getElementById("result")
 button.addEventListener('click', () => {
   if (isEven(inputBox.value)) {
   result.textContent = "EVEN"
+  evenImage.classList.remove("hidden")
+  oddImage.classList.add("hidden")
   }
-  console.log(inputBox)
-  if
-  (isOdd(inputBox.value)){
+  if (isOdd(inputBox.value)){
   result.textContent = "ODD"
+  oddImage.classList.remove("hidden")
+  evenImage.classList.add("hidden")
 }})
+
+const oddImage = document.getElementById("odd-image")
+const evenImage = document.getElementById("even-image")
+
+// export function showPicture() {
+// if (result = isOdd(inputBox.value)) {
+//   result.textContent = oddImage;
+// }
+// }
 
